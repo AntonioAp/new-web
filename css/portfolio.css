@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&display=swap');
 
 *{
-    background-image: url(../background/flat-1680090_1280.png);
+    background-image: url(/background/flat-1680090_1280.png);
     max-width: 100%;
     font-family: 'Antonio', sans-serif; 
     color: white;
@@ -42,7 +42,7 @@ body{
 
 .navbar{
     overflow: auto;  
-    background-image: url(../images/colorful-2174045_1280.png);
+    background-image: url(/images/colorful-2174045_1280.png);
     position: fixed;
     right: 0px;
     z-index: 5;
@@ -108,7 +108,7 @@ p{
     left: 0px;
     width: 100%;
     text-align: center;
-    background-image: url(../images/colorful-2174045_1280.png);  
+    background-image: url(/images/colorful-2174045_1280.png);  
 }
 
 .footer> h3> p{

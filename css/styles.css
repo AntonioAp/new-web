@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@200&display=swap');
 
 *{
-    background-image: url(../background/flat-1680090_1280.png);
+    background-image: url(/background/flat-1680090_1280.png);
     max-width: 100%;
     font-family: 'Antonio', sans-serif; 
     color: white;
@@ -57,7 +57,7 @@ a{
 
 .navbar{
     overflow: auto;  
-    background-image: url(../images/colorful-2174045_1280.png);
+    background-image: url(/images/colorful-2174045_1280.png);
     position: fixed;
     right: 0px;
     z-index: 5;
@@ -273,7 +273,7 @@ article .presentation{
   height: 100%;
   
   transform: translateX( 700px );
-  background-image: url( ../images/office-700x400.jpg);
+  background-image: url( /images/office-700x400.jpg);
   
   animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
 }
@@ -281,19 +281,19 @@ article .presentation{
 
 .card_part.card_part-two {
   z-index: 6;
-  background-image: url( ../images/web-design-700x560.jpg);
+  background-image: url( /images/web-design-700x560.jpg);
   animation-delay: 7s;
 }
 
 .card_part.card_part-three {
   z-index: 5;
-  background-image: url( ../images/website-700x560.png );
+  background-image: url( /images/website-700x560.png );
   animation-delay: 14s;
 }
 
 .card_part.card_part-four {
   z-index: 4;
-  background-image: url( ../images/website-700x560.png );
+  background-image: url( /images/website-700x560.png );
   animation-delay: 21s;
 }
 
@@ -317,7 +317,7 @@ article .presentation{
     margin: 0px auto;
     padding: 0px auto;
     text-align: center;
-    background-image: url(../images/colorful-2174045_1280.png);  
+    background-image: url(/images/colorful-2174045_1280.png);  
 }
 
 .footer> h3> p{
