@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/contactostyle.css">
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@200&display=swap" rel="stylesheet">
+
+
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar">
+            <img class="logo" src="../images/favicon.png">
+            <a href="../portfolio.html">Home</a></li>
+            <a href="../portfolio.html">Portfolio</a></li>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="dato">
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="nombre" maxlength="12" autofocus="autofocus" required>
+        </div>
+        <div class="dato">
+            <label for="PrimerApellido">Primer Apellido</label>
+            <input type="text" name="primapellido" maxlength="12" required>
+        </div>
+        <div class="dato">
+            <label for="SegundoApellido">Segundo Apellido</label>
+            <input type="text" name="segapellido" maxlength="12" required>
+        </div>
+        <div class="dato">
+            <label for="Empresa">Empresa</label>
+            <input type="text" name="empresa">
+        </div>
+        <div class="dato">
+            <label for="Teléfono">Teléfono</label>
+            <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+        </div>
+        <div class="dato">
+            <label for="Mail">Mail</label>
+            <input type="email" name="mail" required>
+        </div>
+        <div class="dato">
+            <h3 id="tipo">Tipo de Web</h3>
+            <label for="TipoWeb">Tienda</label>
+            <input type="radio" name="radio">
+            <label for="TipoWeb">Blog</label>
+            <input type="radio" name="radio">
+            <label for="TipoWeb">Foro</label>
+            <input type="radio" name="radio">
+            <label for="TipoWeb">Empresa</label>
+            <input type="radio" name="radio">
+        </div>
+        <div class="dato">
+            <label for="observaciones">Observaciones</label>
+            <textarea id="subject" name="subject" placeholder="¿En qué has pensado?" style="height:100px"></textarea>
+        </div>
+        <div class="dato">
+            <h3 id="rango">Rango de presupuesto</h3>
+            <label for="Presupuesto">Presupuesto</label>
+            <input type="range" name="range">
+        </div>
+        <div class="dato">
+            <label for="Enviar"></label>
+            <input type="submit">
+        </div>
+
+    </div>
+    <div class="contact">
+        <div id="donde">¿Dónde estamos?</div>
+        <div class="map">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.487512932742!2d-3.690063384756732!3d40.42020266335243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f3f48cbf6a7%3A0xb7b3542e98264faf!2sCalle%20de%20Alcal%C3%A1%2C%20Madrid!5e0!3m2!1ses!2ses!4v1618576913994!5m2!1ses!2ses"
+                width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+            <div class="datos_contacto">
+                <h2>Puedes encontrarnos en esta dirección:</h2>
+                <p>Calle Paseo de la Castellana 159</p><br>
+                <p>Planta 10 </p><br>
+                <p>28001 Madrid</p><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Nombre de la empresa S.A. - Todos los derechos reservados &copy;2021 - Web diseñada y creada por Antonio
+            Aparicio</p>
+    </div>
+
+</body>
+
+</html>
